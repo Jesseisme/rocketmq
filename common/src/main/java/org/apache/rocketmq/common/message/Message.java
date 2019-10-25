@@ -27,6 +27,12 @@ public class Message implements Serializable {
 
     private String topic;
     private int flag;
+    /**
+     * 1.tag
+     * 2.keys
+     * 3.waitStoreMsgOK
+     * 4.delayTimeLevel
+     */
     private Map<String, String> properties;
     private byte[] body;
     private String transactionId;
